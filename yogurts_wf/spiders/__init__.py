@@ -258,3 +258,5 @@ class YogurtsSpider(scrapy.Spider):
                 'ingredients': d['props']['pageProps']['data']['ingredients'][0],
                 'nutritionElements': d['props']['pageProps']['data']['nutritionElements'],
                 'servingInfo': d['props']['pageProps']['data']['servingInfo'] }
+
+    # execute with: scrapy crawl yogurts -o wf-yog.jsonl
