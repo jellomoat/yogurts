@@ -254,8 +254,8 @@ class YogurtsSpider(scrapy.Spider):
                 'brand': d['props']['pageProps']['data']['brand']['name'],
                 'diets': d['props']['pageProps']['data']['diets'],
                 'categories': d['props']['pageProps']['data']['categories'],
-                'images': d['props']['pageProps']['data']['diets'],
-                'ingredients': d['props']['pageProps']['data']['ingredients'][0],
+                'images': d['props']['pageProps']['data']['images'],
+                'ingredients': d['props']['pageProps']['data']['ingredients'],
                 'nutritionElements': d['props']['pageProps']['data']['nutritionElements'],
                 'servingInfo': d['props']['pageProps']['data']['servingInfo'] }
 
