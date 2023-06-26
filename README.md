@@ -27,7 +27,7 @@ Since I already had a ScraPy crawler set up, I decided to use it to crawl throug
 
 ## Data Analysis Process
 
-From there I used pandas to further query the dataframe.  I used matplotlib and mpltern to create a ternary plot of sugar, fat, and protein content for all yogurts.  After careful consideration of this plot, I noticed, as expected, that the nutritional profiles of yogurts vary wildly.  (image below)
+From there I used pandas to further query the dataframe.  I used matplotlib and mpltern to create a ternary plot of sugar, fat, and protein content for all yogurts.  After careful consideration of this plot, I noticed, as expected, that the nutritional profiles of yogurts vary wildly.
 
 ![First ternary plot](./figures/all.svg)
 
