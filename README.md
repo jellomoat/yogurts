@@ -4,9 +4,17 @@ link to story: [on yogurts!](https://jellomoat.github.io/yogurts/)
 ## Description
 This project is a semi-visual exploration of yogurts (at Whole Foods) and their nutritional value.
 
+This story discusses the tangible and nutritional characteristics of different types of yogurts in relation to the claims made about them on their packaging and elsewhere.  It also provides a resource for health-conscious yogurt consumers to discover yogurts most aligned with their dietary needs.
+
 ## Overall Findings
 
+The yogurt market is abundant with options to consider.  As of June 2023 there were 232 yogurt products available for purchase on the Whole Foods yogurts page.  The USDA has a list of thousands more not included in this analysis, all designated as yogurts.
 
+Yogurts as a whole do not seem to have a particular nutritional profile. Some are primarily sugar, some primarily protein, a few primarily fat, and many inbetween.  This is a ternary plot of the relative sugar, fat, and protein content for each of the 232 yogurts at Whole Foods:
+
+![First ternary plot](./figures/all.svg)
+
+As illustrated in the above plot, there's a broad distribution across all yogurts.  However, some clusters can be seen once yogurt types are grouped and plotted separately (detailed further in the story).
 
 ## Data Collection Process
 
@@ -28,8 +36,6 @@ Since I already had a ScraPy crawler set up, I decided to use it to crawl throug
 ## Data Analysis Process
 
 From there I used pandas to further query the dataframe.  I used matplotlib and mpltern to create a ternary plot of sugar, fat, and protein content for all yogurts.  After careful consideration of this plot, I noticed, as expected, that the nutritional profiles of yogurts vary wildly.
-
-![First ternary plot](./figures/all.svg)
 
 I used that first plot as a starting point for segmenting the dataframe, creating subsets and plots for specific yogurt categories once they revealed themselves.  Most of this work was done in this Jupyter notebook => [https://github.com/jellomoat/yogurts/blob/main/wf-yog-parse.ipynb](https://github.com/jellomoat/yogurts/blob/main/wf-yog-parse.ipynb)
 
