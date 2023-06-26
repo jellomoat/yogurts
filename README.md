@@ -1,7 +1,7 @@
 # Profiles of the Many Dramatically Different Yogurts at Whole Foods
 link to story: [on yogurts!](https://jellomoat.github.io/yogurts/)
 
-## Description and Objectives
+## Description
 This project is a semi-visual exploration of yogurts (at Whole Foods) and their nutritional value.
 
 ## Overall Findings
@@ -31,7 +31,7 @@ From there I used pandas to further query the dataframe.  I used matplotlib and 
 
 ![First ternary plot](./figures/all.svg)
 
-I used that first plot as a starting point for segmenting the dataframe, creating subsets and plots for specific yogurt categories once they revealed themselves.
+I used that first plot as a starting point for segmenting the dataframe, creating subsets and plots for specific yogurt categories once they revealed themselves.  Most of this work was done in this Jupyter notebook => [https://github.com/jellomoat/yogurts/blob/main/wf-yog-parse.ipynb](https://github.com/jellomoat/yogurts/blob/main/wf-yog-parse.ipynb)
 
 ## Tools and Techniques Used
 - Web scraping using [ScraPy](https://scrapy.org/)!
